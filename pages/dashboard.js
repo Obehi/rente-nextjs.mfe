@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 
 
-const dashboard = () => {
+const Dashboard = () => {
 
   useEffect(() => {
    
@@ -46,4 +46,4 @@ const dashboard = () => {
      );
 }
  
-export default dashboard;
+export default Dashboard;
