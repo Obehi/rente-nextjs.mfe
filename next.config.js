@@ -1,10 +1,8 @@
-const { ModuleFederationPlugin } = require('module-federation-plugin')
+//const { ModuleFederationPlugin } = require('module-federation-plugin')
+const { ModuleFederationPlugin } = require("webpack").container;
 
 
-const nextConfig = {
-  useFileSystemPublicRoutes: false,
-  distDir: 'build',
-};
+
 module.exports = {
   reactStrictMode: true,
 
